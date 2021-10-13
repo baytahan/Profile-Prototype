@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+h1 {
+  color: #14213D;
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+}
+
+h2 {
+  color: #14213D;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+body {
+  background: #ffba08;
+  color: #14213D;
+  font-family: 'Poppins', sans-serif;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-gold {
+  background-color: #FCA311;
+  font-family: 'Poppins', sans-serif;
+  color: #14213D;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px #14213D;
+  font-size: 18px;
+}
+
+.btn-gold:hover {
+  background-color: #FB8500;
+}
+
+h3 {
+  color: #14213D;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+.social-icon {
+  color: #14213D;
+  font-size: 45px;
+}
+
+div {
+  background-color: #FFFFFF;
+  padding: 36px;
+  box-shadow: 0 5px 15px #14213D;
+  margin: 24px auto;
+  width: 500px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
